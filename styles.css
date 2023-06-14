@@ -37,7 +37,7 @@ textarea{
 
 #btn-translate{
      background-color:rgb(192, 151, 18); 
-
+  border-radius: 8px;
    /*background-color: var(--primary);*/        
     border: none;
     margin: 1rem 0rem;
