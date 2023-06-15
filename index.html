@@ -1,28 +1,37 @@
-<html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pirates Talk</title>
-
-    <link href="styles.css" rel="stylesheet">
+    <title>Translate</title>
+    <script src="app.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
-</head>
-<body>
-    <nav>
-        <div>
-        <h1>Talk in Pirate</h1>
-        </div>
+ <body>
+    <nav class="navigation">
+        <h1>Pirates Translator</h1>
     </nav>
-    <textarea id="txt-input" placeholder="Put your sentence in English here and we will convert it to Pirates"></textarea>
-    <button id="btn-translate"> Translate </button>
-    <div style="font-size: larger;">Output Will Come Here</div>
-    <div id="output"></div>
-    <script src="app.js" type="text/javascript">
 
-    </script>
+    <div class="main-item">
+        <textarea  id="txt-input" placeholder="Put your text here"></textarea>
+        <br>
+        <button id="btn-translate">Translate</button>
+        <div>Translation will come here 👇</div>
+        <textarea  id="output" placeholder="Put your text here"></textarea>
+    </div>
+    
+    <footer class="footer">
+        <h4>About</h4>
+        <h4>The Pirate Translator attempts to translate English language into something you could say in a drunken pirate brawl or when writing to your pirate penpal.</h4>
+    </footer>
+    
+    <!-- <div style="font-size: large;">Output will come here 👇</div> -->
+    
+
+
+    <script src="app.js" type="text/javascript"></script>
 </body>
-
-
 
 </html>
